@@ -1,0 +1,116 @@
+.v-wrapper {
+  padding: 4rem 0;
+  background: #fff;
+  width: 100%;
+  height: 100vh;
+}
+.v-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  gap: 5rem;
+}
+.v-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.image-container {
+  width: 28rem;
+  height: 32rem;
+  overflow: hidden;
+  border-radius: 15rem 15rem 0 0;
+  border: 8px solid #f5f5f5;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.v-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.orangeText {
+  color: orange;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.primaryText {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f3e72;
+}
+
+.secondaryText {
+  font-size: 0.9rem;
+  color: #777;
+  line-height: 1.6;
+}
+.accordion {
+  margin-top: 1.5rem;
+  border: none;
+}
+
+.accordionItem {
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+  overflow: hidden;
+}
+
+.accordionButton {
+  background: #fff;
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  /* border: 1px solid black;
+  border-radius: 5px; */
+}
+.icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: #eef2ff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrow {
+  margin-left: auto;
+  transition: transform 0.3s ease;
+}
+
+.arrow.expanded {
+  transform: rotate(180deg);
+}
+.accordion__panel {
+  padding: 0 1.5rem 1.2rem;
+}
+@media (max-width: 768px) {
+  .v-container {
+    flex-direction: column;
+  }
+
+  .image-container {
+    width: 90%;
+    height: 22rem;
+  }
+
+  .primaryText {
+    font-size: 1.6rem;
+  }
+}
+
+

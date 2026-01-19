@@ -1,0 +1,93 @@
+.home{
+    width: 100%;
+    height: 70vh;
+}
+.r-container {
+  gap: 2rem;
+  position: relative;
+  overflow: hidden;
+  margin-top: 50px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.r-card {
+  gap: 0.6rem;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: max-content;
+  margin: auto;
+  transition: all 300ms ease-in;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.r-card > img {
+  width: 100%;
+  max-width: 15rem;
+}
+.r-card > :nth-child(2) {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: gold;
+}
+.r-card > :nth-child(3) {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: rgb(23, 23, 138);
+}
+.r-card > :nth-child(4) {
+  font-size: 0.7rem;
+  width: 15rem;
+  color: gray;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.r-card:hover {
+  scale: 1.025;
+  cursor: pointer;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(136, 160, 255, 0.46) 217.91%
+  );
+  box-shadow: 0px 72px 49px -51px rgba(136, 160, 255, 0.21);
+}
+.o-Text{
+    color: orange;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+.p-Text{
+    color: rgb(51, 51, 226);
+    font-size: 25PX;
+    font-family: 'Gill Sans',  sans-serif;
+    margin-left: 20PX;
+}
+.r-card > span:nth-of-type(1){
+    font-size: 15px;
+}
+.r-buttons{
+   margin-left: 1200px;
+}
+.r-prevButton{
+    padding: 5px 15px;
+    border: none;
+    color: rgb(18, 247, 87);
+    background-color: rgb(101, 79, 151);
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+.r-nextButton{
+    padding: 5px 15px;
+    border: none;
+    color: rgb(18, 247, 87);
+    background-color: rgb(15, 67, 179);
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transform: scaleX(-1);
+}

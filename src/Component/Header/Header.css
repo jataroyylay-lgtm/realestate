@@ -1,0 +1,52 @@
+.h-wrapper{
+  z-index: 99;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(30px);
+  background-color: rgba(74, 74, 82, 0.3);
+}
+@media (max-width : 1800px){
+.h-container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: var(--secondary);
+  justify-content: space-evenly;
+  display:  flex;
+}
+.h-navbar{
+  gap: 20px;
+  align-items: center;
+  display: flex;
+  margin-left: 250px;   
+}
+li{
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+.ah{
+  text-decoration: none;
+  font-size: 17px;
+  font-weight:  bold;
+  color: rgba(252, 252, 252, 0.562);
+  transition: all 0.3s ease-in-out;
+  padding: 5px 12px;
+}
+.bn{
+  background-color: rgb(50, 111, 241);
+  padding: 4px 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.btn:hover{
+  background-color:rgb(50, 241, 168) ;
+}
+}
+.ah:hover{
+  color: rgb(219, 28, 28);
+  background-color: aqua;
+  border-radius: 5px;
+  
+  transform: scale(1.1);
+}

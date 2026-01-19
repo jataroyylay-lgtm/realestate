@@ -1,0 +1,34 @@
+.f-wrapper{
+    width: 100%;
+    height: 200px;
+}
+.f-container{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.f-left{
+    display: flex;
+    flex-direction: column;
+}
+.s-text{
+    color: grey;
+}
+.f-right{
+    display: flex;
+    flex-direction: column;
+}
+.f-menu{
+    display: flex;
+    gap: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.m-text{
+    font-size: 30px;
+    font-weight: bold;
+}
